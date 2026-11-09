@@ -1,0 +1,1 @@
+This snapshot contains experiment facts, independently authored summaries and a metadata verification utility. No upstream model code, datasets, checkpoints or paper figures are redistributed. Upstream rights and licenses remain with their respective owners. No blanket license is assigned to third-party material.

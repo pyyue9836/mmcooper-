@@ -1,0 +1,89 @@
+{
+  "units": "percent; differences in percentage points",
+  "geometry": "Public implementation BEV polygon IoU",
+  "F": "Native per-frame sorting followed by frame order",
+  "G": "Global confidence ordering where natively supported",
+  "neither_order_selected_by_closeness_to_paper": true,
+  "rows": [
+    {
+      "method": "No Fusion",
+      "paper_value": "48.66",
+      "local_author_frame_order": "57.46765692",
+      "local_global_confidence": "64.11766556",
+      "status": "PUBLIC_BASELINE_EXECUTED_WITH_UNMATCHED_PAPER_CONDITIONS",
+      "job": "baseline_opv2v_nofusion_paper_main"
+    },
+    {
+      "method": "Late Fusion",
+      "paper_value": "59.48",
+      "local_author_frame_order": "31.79672418",
+      "local_global_confidence": "33.762821",
+      "status": "PUBLIC_BASELINE_EXECUTED_WITH_UNMATCHED_PAPER_CONDITIONS",
+      "job": "baseline_opv2v_late_paper_main"
+    },
+    {
+      "method": "Intermediate Fusion",
+      "paper_value": "70.82",
+      "local_author_frame_order": "49.2416768",
+      "local_global_confidence": "59.65499175",
+      "status": "PUBLIC_BASELINE_EXECUTED_WITH_UNMATCHED_PAPER_CONDITIONS",
+      "job": "baseline_opv2v_intermediate_paper_main"
+    },
+    {
+      "method": "When2com",
+      "paper_value": "57.55",
+      "local_author_frame_order": "",
+      "local_global_confidence": "",
+      "status": "MATERIALS_MISSING",
+      "job": ""
+    },
+    {
+      "method": "DiscoNet",
+      "paper_value": "68.64",
+      "local_author_frame_order": "",
+      "local_global_confidence": "76.66435644",
+      "status": "PUBLIC_BASELINE_EXECUTED_WITH_UNMATCHED_PAPER_CONDITIONS",
+      "job": "baseline_coalign_opv2v_disconet_native"
+    },
+    {
+      "method": "Where2comm",
+      "paper_value": "69.73",
+      "local_author_frame_order": "60.02153654",
+      "local_global_confidence": "69.60034842",
+      "status": "PUBLIC_BASELINE_EXECUTED_WITH_UNMATCHED_PAPER_CONDITIONS",
+      "job": "baseline_opv2v_where2comm_paper_main"
+    },
+    {
+      "method": "V2X-ViT",
+      "paper_value": "70.06",
+      "local_author_frame_order": "",
+      "local_global_confidence": "85.2914948",
+      "status": "PUBLIC_BASELINE_EXECUTED_WITH_UNMATCHED_PAPER_CONDITIONS",
+      "job": "baseline_coalign_opv2v_v2xvit_native"
+    },
+    {
+      "method": "Select2col",
+      "paper_value": "62.46",
+      "local_author_frame_order": "",
+      "local_global_confidence": "",
+      "status": "PUBLIC_BASELINE_NATIVE60_TRAINING_AND_FULL_TEST_QUEUED_NOT_A_RESULT",
+      "job": "baseline_opv2v_select2col_native60"
+    },
+    {
+      "method": "ERMVP",
+      "paper_value": "69.71",
+      "local_author_frame_order": "",
+      "local_global_confidence": "",
+      "status": "MATERIALS_MISSING",
+      "job": ""
+    },
+    {
+      "method": "mmCooper",
+      "paper_value": "78.11",
+      "local_author_frame_order": "78.13703358",
+      "local_global_confidence": "86.02019018",
+      "status": "LOCAL_CODE_EXECUTED_WITH_RECORDED_AMBIGUITIES",
+      "job": "reused_table1_opv2v"
+    }
+  ]
+}

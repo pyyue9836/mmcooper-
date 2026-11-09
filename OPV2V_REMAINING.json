@@ -1,0 +1,26 @@
+{
+  "missing_ablation_variants": [
+    "Cross Attention replaces DBA",
+    "without BFC",
+    "without CFG",
+    "without IF",
+    "without LF",
+    "without MOF"
+  ],
+  "missing_main_final_AP_methods": [
+    "When2com",
+    "Select2Col",
+    "ERMVP"
+  ],
+  "Select2Col_original_committed_epochs": 31,
+  "Select2Col_total_epochs": 60,
+  "Select2Col_historical_conditional_training_hours_remaining": 70.2766666667,
+  "Select2Col_this_export_does_not_claim_resumed": true,
+  "other_missing": [
+    "Full communication curves and matched comparison operating points",
+    "Some baseline native delay implementations and exact paper conditions",
+    "Timing-stage boundaries and cross-hardware comparison protocol"
+  ],
+  "from_scratch_own_mmCooper_retraining_not_a_prerequisite_for_completed_author_weight_tests": true,
+  "whole_scope_finish_date": null
+}

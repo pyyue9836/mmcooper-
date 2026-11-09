@@ -1,0 +1,38 @@
+{
+  "scope": [
+    "OPV2V"
+  ],
+  "upstream": [
+    {
+      "name": "mmCooper",
+      "repository": "https://github.com/tengjjj/mmCooper",
+      "commit": "ca492e89939f9504775c04c0c3640020e7932adc"
+    },
+    {
+      "name": "Select2Col",
+      "repository": "https://github.com/ZJUNICE/Select2Col",
+      "commit": "5978cc466f294af3252381da4da7d2bee56c9694"
+    }
+  ],
+  "mmCooper_author_checkpoint_sha256": "c1e87063688cad20ea07608986c94b4bffbd4874d27237259f64406af621c135",
+  "author_config_sha256": "6df787434c984174f5f96bdd391166dd1dc69fa10181ef80f24baa7172a73c68",
+  "effective_config_sha256": "c4763fc8a7bd490d2a04649bb6bf32dccc5daebf9c6addce99e89007d6db6420",
+  "inference_seed": 20,
+  "hardware": "NVIDIA GeForce RTX5070",
+  "evaluation_frames": 2170,
+  "environment": "WSL Ubuntu22.04; PyTorch2.11 CUDA12.8",
+  "limitations": [
+    "Author inference seed and exact AP-order choice not established",
+    "Public baseline weights/configs are not proved to match mmCooper author baseline training",
+    "Public BEV evaluation and native noise/delay semantics retained; no matching of numbers by tuning",
+    "This is a metadata/results snapshot, not a fully replayable end-to-end training distribution"
+  ],
+  "excludes": [
+    "Datasets",
+    "Model checkpoints",
+    "Prediction arrays",
+    "Private Git history",
+    "Credentials",
+    "Machine-specific absolute paths"
+  ]
+}

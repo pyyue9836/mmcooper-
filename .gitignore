@@ -1,0 +1,10 @@
+datasets/
+models/
+checkpoints/
+*.pth
+*.pt
+*.npz
+*.pkl
+*.zip
+.env
+__pycache__/
